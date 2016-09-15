@@ -3,8 +3,10 @@
 //apiRouter.get( "/user", routes.user.myinfo );
 apiRouter.get( "/user", function( req, res, next ){
 	if( req.user ){
+		var usr = JSON.parse( JSON.stringify( req.user ) );
+		delete usr.password;
 		res.statusCode = 200;
-		res.end( JSON.stringify(req.user), next );
+		res.end( JSON.stringify(usr), next );
 		return;
 	}
 
