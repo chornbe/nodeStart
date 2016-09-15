@@ -1,0 +1,32 @@
+{
+  "name": "nodeStart",
+  "version": "0.1.0",
+  "description": "Starting point for a node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Hornberger <chrishornberger@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "bunyan": "^1.8.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "jquery": "^3.1.0",
+    "moment": "^2.14.1",
+    "mysql": "^2.11.1",
+    "node-uuid": "^1.4.7",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "pug": "^0.1.0",
+    "request": "^2.74.0",
+    "sequelize": "^3.24.2",
+    "stylus": "^0.54.5",
+    "tedious": "^1.14.0"
+  }
+}

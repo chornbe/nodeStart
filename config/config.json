@@ -1,0 +1,16 @@
+{
+	"development": {
+		"database": "sample_db",
+		"username": "username",
+		"password": "password",
+		"dialect": "mssql",
+		"host": "hostname",
+		"options": {
+			"dialect": "mssql",
+			"host": "hostname",
+			"dialectOptions": {
+				"instanceName": "sqlexpress"
+			}
+		}
+	}
+}
